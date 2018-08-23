@@ -16,7 +16,7 @@ Important parameters are as below:<br/>
 "-CC": bool, true for outputting superimposing results of library molecules and the query molecules. (default: false)<br/>
 
 ## A simple usage:
-the example files are in `example`<br/>
+the example files are in `example`, command line can be <br/>
 `> S2MA.exe -sd example/hdac8_library.sd -qsd example/hdac8_template.sd -ssd example/hdac8_sub.mol -CC true`
 
 ## Notes:
