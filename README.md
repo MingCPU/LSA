@@ -18,3 +18,6 @@ Important parameters are as below:<br/>
 
 ## A simple usage:
 `$ S2MA.exe -ssd substructure.sd -qsd query.sd -sd library.sd`
+
+## Notes:
+`HBA_Exclude.sdf`,`HBD_Exclude.sdf`,`NEG_Included.sdf`,`POS_Included.sdf` are necessary files, do not modify and keep them in the same folder with `S2MA.exe`.
