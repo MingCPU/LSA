@@ -2,7 +2,7 @@
 S2MA: Steric Substructure Match Algorithm for Bioactive Compound Screening
 
 ## Environment
-Windows command line
+Windows command line or Linux OS
 
 ## Fast user guide
 **1. S2MA.exe and parameters**<br />
@@ -16,7 +16,8 @@ Important parameters are as below:<br/>
 "-CC": bool, true for outputting superimposing results of library molecules and the query molecules. (default: false)<br/>
 
 ## A simple usage:
-`> S2MA.exe -ssd substructure.sd -qsd query.sd -sd library.sd`
+the example files are in `example`
+`> S2MA.exe -sd example/hdac8_library.sd -qsd example/hdac8_template.sd -ssd example/hdac8_sub.mol -CC true`
 
 ## Notes:
 `HBA_Exclude.sdf`,`HBD_Exclude.sdf`,`NEG_Included.sdf`,`POS_Included.sdf` are necessary files, do not modify and keep them in the same folder with `S2MA.exe`.
