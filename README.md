@@ -14,7 +14,6 @@ Important parameters are as below:<br/>
 "-sd":filepath, the `.sdf` file of molecule(s) to be screened.<br/>
 "-sscnt": integer, the number of defined substructures (default: 1)<br/>
 "-CC": bool, true for outputting superimposing results of library molecules and the query molecules. (default: false)<br/>
-"NW": 0 or 1, please set as 1 handly.
 
 ## A simple usage:
 `> S2MA.exe -ssd substructure.sd -qsd query.sd -sd library.sd`
