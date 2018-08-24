@@ -1,5 +1,5 @@
 # LSA
-LSA: Local-weighted Similarity Algorithm for Pharmaceutical Virtual Screening
+LSA: a local-weighted structure alignment tool for pharmaceutical virtual screening
 
 ## Environment
 Windows command line or Linux OS
